@@ -1,0 +1,14 @@
+*{
+    background-color: #e8faff;
+    font-family: "Roboto Light", Arial, serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
