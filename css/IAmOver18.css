@@ -1,0 +1,43 @@
+#over18Container{
+    width: min(750px, 100vw);
+    aspect-ratio: 750 / 300;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+}
+
+#title-txt-img{
+    width: min(400px, 100vw);
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#IAmOver18-btn{
+    display: block;
+    width: min(300px, 100vw);
+    height: min(50px, 100vw);
+    color: whitesmoke;
+    font-size: 30px;
+    background-color: #5fa0b0;
+    border-color: #538b99;
+    margin: 30px auto 10px;
+    border-radius: 5px;
+}
+
+#IAmUnder18-btn{
+    display: block;
+    width: min(300px, 100vw);
+    height: min(50px, 100vw);
+    color: whitesmoke;
+    font-size: 30px;
+    background-color: #a1bfc7;
+    border-color: #95b0b8;
+    margin: 10px auto 30px;
+    border-radius: 5px;
+}
