@@ -13,13 +13,17 @@ body{
     width: 100vw;
 }
 
+#title-txt-img{
+    display: none;
+}
+
 #iAmOver18Screen{
     width: min(750px, 100vw);
     aspect-ratio: 750 / 300;
     margin: 0 auto;
     box-sizing: border-box;
     flex: 0 0 auto;
-    background-color: #e8e8e8;
+    background-color: whitesmoke;
     border-radius: 5px;
     border: 2px solid lightgrey;
 }
@@ -55,4 +59,57 @@ body{
     border-color: #95b0b8;
     margin: 10px auto 30px;
     border-radius: 5px;
+}
+
+#howOldAreYouContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min(75px, 100vw);
+    font-family: "Roboto Light", Arial, serif;
+    color: whitesmoke;
+    background-color: #4f90a1;
+    margin: 10px 10px 5px;
+}
+
+#howOldAreYou-txt{
+    font-size:  30px;
+    background-color: transparent;
+    position: relative;
+}
+
+#ageContainer{
+    margin: 10px 10px 10px;
+    background-color: #a1bfc7;
+}
+
+#selectAgeContinueContainer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: whitesmoke;
+    border-top: 2px solid lightgrey;
+    height: min(50px, 100vw);
+}
+
+#selectAgeContinueButton{
+    font-family: "Roboto Light", Arial, serif;
+    background-color: #4f90a1;
+    color: whitesmoke;
+    border: none;
+    width: min(80px, 100vw);
+    height: min(35px, 100vw);
+    position: relative;
+    margin: 10px 10px 10px;
+}
+
+#selectAgeScreen{
+    display: none;
+    width: min(550px, 100vw);
+    aspect-ratio: 550 / 300;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    background-color: whitesmoke;
+    border: 2px solid lightgrey;
 }

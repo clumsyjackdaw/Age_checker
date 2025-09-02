@@ -6,17 +6,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!--    <div id="title-txt"><img src="resources/logo.png" alt="Age Checker" id="title-txt-img"/></div>-->
+    <div id="title-txt"><img src="resources/logo.png" alt="Age Checker" id="title-txt-img"/></div>
     <div id="game">
         <div id="iAmOver18Screen">
             <img src="resources/logo.png" alt="Age Checker" class="title-txt-img"/>
             <button onclick="iAmOver18Clicked()" id="IAmOver18-btn">I am over 18</button>
             <button onclick="" id="IAmUnder18-btn">I am under 18</button>
         </div>
+        <div id="selectAgeScreen">
+            <div id="howOldAreYouContainer"><text id="howOldAreYou-txt">How old are you?</text></div>
+            <div id="ageContainer"><div id="agesInHere"></div></div>
+            <div id="selectAgeContinueContainer">
+                <button onclick="selectAge()" id="selectAgeContinueButton">Continue</button>
+            </div>
+        </div>
+
     </div>
 </body>
-<script src="scripts/includeHtml.js"></script>
-<script> includeHTML();</script>
 <script src="scripts/game.js"></script>
 <script>selectAgeSetup()</script>
 </html>
