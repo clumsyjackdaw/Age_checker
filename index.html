@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!--    <div w3-include-html="html/title.html"></div>-->
+<!--    <div id="title-txt"><img src="resources/logo.png" alt="Age Checker" id="title-txt-img"/></div>-->
     <div id="game">
-<!--        <div id="iAmOver18Screen" w3-include-html="html/IAmOver18.html"></div>-->
-        <div id="selectAgeScreen" w3-include-html="html/SelectAge.html"></div>
+        <div id="iAmOver18Screen">
+            <img src="resources/logo.png" alt="Age Checker" class="title-txt-img"/>
+            <button onclick="iAmOver18Clicked()" id="IAmOver18-btn">I am over 18</button>
+            <button onclick="" id="IAmUnder18-btn">I am under 18</button>
+        </div>
     </div>
 </body>
 <script src="scripts/includeHtml.js"></script>
