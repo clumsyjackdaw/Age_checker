@@ -38,5 +38,10 @@ function selectAge() {
     } else {
         selectedAge = parseInt(document.querySelector('input[name="selectedAge"]:checked').value);
         document.getElementById("selectAgeScreen").style.display = "none";
+        document.getElementById("verificationRequiredScreen").style.display = "block";
     }
+}
+
+function continueAgeChecker() {
+    document.getElementById("verificationRequiredScreen").style.display = "none";
 }

@@ -10,8 +10,8 @@
     <div id="game">
         <div id="iAmOver18Screen">
             <img src="resources/logo.png" alt="Age Checker" class="title-txt-img"/>
-            <button onclick="iAmOver18Clicked()" id="IAmOver18-btn">I am over 18</button>
-            <button onclick="" id="IAmUnder18-btn">I am under 18</button>
+            <button onclick="iAmOver18Clicked()" id="IAmOver18-btn" class="darkColor-btn">I am over 18</button>
+            <button onclick="" id="IAmUnder18-btn" class="lightColor-btn">I am under 18</button>
         </div>
         <div id="selectAgeScreen">
             <div id="howOldAreYouContainer"><text id="howOldAreYou-txt">How old are you?</text></div>
@@ -19,6 +19,12 @@
             <div id="selectAgeContinueContainer">
                 <button onclick="selectAge()" id="selectAgeContinueButton">Continue</button>
             </div>
+        </div>
+        <div id="verificationRequiredScreen">
+            <div id="verificationRequiredTitle-container"><text id="VerificationRequiredTitle">Verification Required</text></div>
+            <div id="VerificationRequiredTxt-container"><text id="VerificationRequiredTxt">We were not able to verify your age. Please continue the verification process.</text></div>
+            <button onclick="continueAgeChecker()" id="verificationContinue-btn" class="darkColor-btn">Continue</button>
+            <button onclick="" id="verificationCancel-btn" class="lightColor-btn">Cancel</button>
         </div>
 
     </div>

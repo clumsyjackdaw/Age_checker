@@ -37,7 +37,7 @@ body{
     margin-top: 15px;
 }
 
-#IAmOver18-btn{
+.darkColor-btn{
     display: block;
     width: min(300px, 100vw);
     height: min(50px, 100vw);
@@ -49,7 +49,7 @@ body{
     border-radius: 5px;
 }
 
-#IAmUnder18-btn{
+.lightColor-btn{
     display: block;
     width: min(300px, 100vw);
     height: min(50px, 100vw);
@@ -112,4 +112,40 @@ body{
     flex: 0 0 auto;
     background-color: whitesmoke;
     border: 2px solid lightgrey;
+}
+
+#verificationRequiredScreen{
+    display: none;
+    width: min(750px, 100vw);
+    aspect-ratio: 750 / 300;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+}
+
+#VerificationRequiredTitle{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#verificationRequiredTitle-container {
+    background-color: transparent;
+    margin: 30px auto 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#VerificationRequiredTxt-container{
+    background-color: transparent;
+    margin: 20px auto 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#VerificationRequiredTxt{
+    background-color: transparent;
 }
